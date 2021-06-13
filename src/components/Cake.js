@@ -401,18 +401,25 @@ export default class Cake extends Component {
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
                 }
                 if(buf.includes("Cake")){
-                    if(buf.includes("60"))
+                    if(buf.includes("60")){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-4%" }}><img src={str_buf}/></div>)
-                    if(buf.includes("80"))
+                        console.log(str_buf);
+                    }
+                    if(buf.includes("80")){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
-                    if(!((buf.includes("60") || buf.includes("80"))))
+                        console.log(str_buf);
+                    }
+                    if(!((buf.includes("60") || buf.includes("80")))){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        console.log(str_buf);
+                    }
                 }
                 if(!(!buf.includes("Cake") || !buf.includes("Glazing"))){
                     cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1 }}><img src={str_buf}/></div>)
                 }
             }
         }
+        console.log(cake);
         return cake.reverse();
     }
 
@@ -427,7 +434,7 @@ export default class Cake extends Component {
                     <img src={window.location.origin + "/assets/cakeStand.svg"}/>
                 </div>
                 </div>
-                <div className="ingredientsBlock">
+                <div className="ingredientsBlock" style={{zIndex: 600}}>
                     <div className="bufIngredientBlock">
                         <p style={{border: '0px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", marginTop:'-20%'}}>Корж</p>
