@@ -1,0 +1,18 @@
+body {
+  width: auto;
+  padding: 80px;
+  background: #FFA4E7 url("back.svg") repeat scroll 50% 50%;
+  margin: 0;
+}
+.header{
+  background: url("honey.svg") repeat scroll 50% 50%;
+  height: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7a180d;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  padding: 1%;
+  margin: -80px;
+}

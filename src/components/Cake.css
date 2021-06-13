@@ -1,0 +1,50 @@
+.cakeIngredients{   
+    height: 300px;
+    /*overflow: auto;*/
+    flex: 1 1 auto;
+}
+
+.ingredientsBlock{
+    background-color: rgba(255, 112, 160, 0.664); /*поменять цвет бэкграйнда теста!!*/
+    margin: 0;
+    max-width: 40%;
+    flex: 1 1 auto;
+}
+
+.bufIngredientBlock{
+    margin-top: 20%;
+    margin-bottom: 20%; 
+}
+
+.ingredientsBlock p{
+    opacity: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #7a180d;
+    font-weight: 400;
+    font-family: "Amatic SC", cursive;
+    cursor: pointer;
+}
+
+.topSide{
+    position: relative;
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+.bottomSide{
+    position: relative;
+    z-index: 0;
+    height: -29%;
+    width: 29%;
+    margin: 10px;
+}
+
+.cakeSide{
+    position: relative;
+    z-index: 1;
+    height: 25%; width: 25%;
+    margin-bottom: -55px;
+    margin-left: 32%;
+    margin: 20px;
+}
