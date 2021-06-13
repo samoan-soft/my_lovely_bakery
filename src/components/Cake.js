@@ -436,27 +436,27 @@ export default class Cake extends Component {
                 </div>
                 <div className="ingredientsBlock" style={{zIndex: 600}}>
                     <div className="bufIngredientBlock">
-                        <p style={{border: '0px', color: 'white',
+                        <p style={{zIndex: 610, border: '0px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", marginTop:'-20%'}}>Корж</p>
-                        <p onClick={() => this.addIngredient("chocolateCake")}>Шоколадый</p>
-                        <p onClick={() => this.addIngredient("strawberryСake")}>Клубничный</p>
-                        <p onClick={() => this.addIngredient("vanillaCake")}>Ванильный</p>
-                        <p style={{border: '15px', color: 'white',
+                        <p onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610}}>Шоколадый</p>
+                        <p onClick={() => this.addIngredient("strawberryСake")} style={{zIndex: 610}}>Клубничный</p>
+                        <p onClick={() => this.addIngredient("vanillaCake")} style={{zIndex: 610}}>Ванильный</p>
+                        <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Глазурь</p>
-                        <p onClick={() => this.addIngredient("chocolateGlazing")}>Шоколадная</p>
-                        <p onClick={() => this.addIngredient("strawberryGlazing")}>Клубничная</p>
-                        <p onClick={() => this.addIngredient("vanillaGlazing")}>Ванильная</p>
-                        <p style={{border: '15px', color: 'white',
+                        <p onClick={() => this.addIngredient("chocolateGlazing")} style={{zIndex: 610}}>Шоколадная</p>
+                        <p onClick={() => this.addIngredient("strawberryGlazing")} style={{zIndex: 610}}>Клубничная</p>
+                        <p onClick={() => this.addIngredient("vanillaGlazing")} style={{zIndex: 610}}>Ванильная</p>
+                        <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Украшения</p>
-                        <p onClick={() => this.addIngredient("candles")}>Свечи</p>
-                        <p style={{border: '15px', color: 'white',
+                        <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610}}>Свечи</p>
+                        <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Топпинг</p>
-                        <p onClick={() => this.addIngredient("chocolateTopping")}>Шоколадный</p>
-                        <p onClick={() => this.addIngredient("pinkTopping")}>Клубничный</p>
-                        <p onClick={() => this.removeIngredient()} style={{border: '15px', color: 'white',
+                        <p onClick={() => this.addIngredient("chocolateTopping")} style={{zIndex: 610}}>Шоколадный</p>
+                        <p onClick={() => this.addIngredient("pinkTopping")} style={{zIndex: 610}}>Клубничный</p>
+                        <p onClick={() => this.removeIngredient()} style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '35%',*/
                         cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/}}>Удалить</p>
-                        <p style={{border: '15px', color: 'white',
+                        <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '32%',*/ marginTop: '10px',
                         cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/}}>Завершить</p>
                     </div>
