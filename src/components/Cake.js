@@ -538,12 +538,12 @@ export default class Cake extends Component {
                         <p onClick={() => this.addIngredient("strawberryGlazing")} style={{zIndex: 610}}>Клубничная</p>
                         <p onClick={() => this.addIngredient("vanillaGlazing")} style={{zIndex: 610}}>Ванильная</p>
                         <p style={{zIndex: 610, border: '15px', color: 'white',
-                        backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Украшения</p>
-                        <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610}}>Свечи</p>
-                        <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Топпинг</p>
                         <p onClick={() => this.addIngredient("chocolateTopping")} style={{zIndex: 610}}>Шоколадный</p>
                         <p onClick={() => this.addIngredient("pinkTopping")} style={{zIndex: 610}}>Клубничный</p>
+                        <p style={{zIndex: 610, border: '15px', color: 'white',
+                        backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Украшения</p>
+                        <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610}}>Свечи</p>
                         <p onClick={() => this.removeIngredient()} style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '35%',*/
                         cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/}}>Удалить</p>
