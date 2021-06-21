@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my_lovely_bakery/static/css/main.92f9c02c.chunk.css",
+    "main.js": "/my_lovely_bakery/static/js/main.a354378d.chunk.js",
+    "main.js.map": "/my_lovely_bakery/static/js/main.a354378d.chunk.js.map",
+    "runtime-main.js": "/my_lovely_bakery/static/js/runtime-main.80ee6edf.js",
+    "runtime-main.js.map": "/my_lovely_bakery/static/js/runtime-main.80ee6edf.js.map",
+    "static/js/2.781fbf04.chunk.js": "/my_lovely_bakery/static/js/2.781fbf04.chunk.js",
+    "static/js/2.781fbf04.chunk.js.map": "/my_lovely_bakery/static/js/2.781fbf04.chunk.js.map",
+    "index.html": "/my_lovely_bakery/index.html",
+    "static/css/main.92f9c02c.chunk.css.map": "/my_lovely_bakery/static/css/main.92f9c02c.chunk.css.map",
+    "static/js/2.781fbf04.chunk.js.LICENSE.txt": "/my_lovely_bakery/static/js/2.781fbf04.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/my_lovely_bakery/static/media/honey.36b3ec81.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80ee6edf.js",
+    "static/js/2.781fbf04.chunk.js",
+    "static/css/main.92f9c02c.chunk.css",
+    "static/js/main.a354378d.chunk.js"
+  ]
+}
