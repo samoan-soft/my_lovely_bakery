@@ -529,24 +529,25 @@ export default class Cake extends Component {
                     <div className="bufIngredientBlock">
                         <p style={{zIndex: 610, border: '0px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Корж</p>
-                        <p onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610, cursor: "pointer"}}>Шоколадый</p>
-                        <p onClick={() => this.addIngredient("strawberryCake")} style={{zIndex: 610, cursor: "pointer"}}>Клубничный</p>
-                        <p onClick={() => this.addIngredient("vanillaCake")} style={{zIndex: 610, cursor: "pointer"}}>Ванильный</p>
+                        <p onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Шоколадый</p>
+                        <p onClick={() => this.addIngredient("strawberryCake")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Клубничный</p>
+                        <p onClick={() => this.addIngredient("vanillaCake")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Ванильный</p>
                         <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Глазурь</p>
-                        <p onClick={() => this.addIngredient("chocolateGlazing")} style={{zIndex: 610, cursor: "pointer"}}>Шоколадная</p>
-                        <p onClick={() => this.addIngredient("strawberryGlazing")} style={{zIndex: 610, cursor: "pointer"}}>Клубничная</p>
-                        <p onClick={() => this.addIngredient("vanillaGlazing")} style={{zIndex: 610, cursor: "pointer"}}>Ванильная</p>
+                        <p onClick={() => this.addIngredient("chocolateGlazing")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Шоколадная</p>
+                        <p onClick={() => this.addIngredient("strawberryGlazing")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Клубничная</p>
+                        <p onClick={() => this.addIngredient("vanillaGlazing")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Ванильная</p>
                         <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Топпинг</p>
-                        <p onClick={() => this.addIngredient("chocolateTopping")} style={{zIndex: 610, cursor: "pointer"}}>Шоколадный</p>
-                        <p onClick={() => this.addIngredient("pinkTopping")} style={{zIndex: 610, cursor: "pointer"}}>Клубничный</p>
+                        <p onClick={() => this.addIngredient("chocolateTopping")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Шоколадный</p>
+                        <p onClick={() => this.addIngredient("pinkTopping")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Клубничный</p>
                         <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Украшения</p>
-                        <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610, cursor: "pointer"}}>Свечи</p>
+                        <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610, cursor: "pointer", fontSize: "120%"}}>Свечи</p>
                         <p onClick={() => this.removeIngredient()} style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '35%',*/
-                        cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/ cursor: "pointer"}}>Удалить</p>
+                        cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/ cursor: "pointer", borderRadius: "40%", background: "rgba(255, 112, 160)", padding: "5% 12%",
+                        fontSize: "140%", width: "20%", marginLeft:"27%"}}>Удалить</p>
                     </div>
                 </div>
             </>
