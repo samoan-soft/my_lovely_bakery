@@ -474,15 +474,15 @@ export default class Cake extends Component {
             for(let j = 0; j < this.state[buf]; j++){
                 if(buf.includes("Glazing")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-4%", alignItems: "center" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-12%", alignItems: "center" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-14%" }}><img src={str_buf}/></div>)
                     if(buf.includes("100"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-15%" }}><img src={str_buf}/></div>)
                 }
                 if(buf.includes("Cake")){
                     if(buf.includes("60")){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-4%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
                     }
                     if(buf.includes("80")){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)

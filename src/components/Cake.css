@@ -1,7 +1,8 @@
 .cakeIngredients{   
-    height: 100%;
-    transform: scale(160%);
-    margin-left: 33%;
+    height: 150%;
+    align-items: center;
+    transform: scale(300%);
+    margin-left: 37%;
     /*overflow-x: hidden;*/
     flex: 1 1 auto;
 }
@@ -29,7 +30,6 @@
 .topSide{
     position: relative;
     z-index: 1;
-    transform: scale(100%);
 }
 
 .bottomSide{

@@ -2,11 +2,12 @@ body {
   width: auto;
   /*overflow-y: hidden;*/
   padding: 80px;
-  background: #FFA4E7 url("back.svg") repeat-x 100% 100%;
+  background: #FFA4E7 url("back.svg") repeat;
+  background-size: 30% auto;
   margin: 0;
 }
 .header{
-  background: url("honey.svg") repeat 100% 100%;
+  background: url("honey.svg") repeat-x top;
   height: 110px;
   text-align: center;
   text-transform: uppercase;
@@ -14,6 +15,6 @@ body {
   font-weight: 700;
   font-family: "Amatic SC", cursive;
   font-size: 30px;
-  padding: 1%;
   margin: -80px;
+  padding: 15px 5px;
 }
