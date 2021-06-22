@@ -96,7 +96,7 @@ export default class Cake extends Component {
         chocolateCake: 0, chocolateCake80: 0, chocolateCake60: 0, //количество шоколадных коржей коржей
         strawberryCake: 0, strawberryCake80: 0, strawberryCake60: 0, //количество клубничных коржей 60% размера
         vanillaCake: 0, vanillaCake80: 0, vanillaCake60: 0, //количество ванильных коржей 60% размера
-        pinkTopping: 0, pinkTopping80: 0, pinkTopping60: 0, //посыпка розовая
+        pinkTopping100: 0, pinkTopping80: 0, pinkTopping60: 0, //посыпка розовая
         chocolateTopping: 0, chocolateTopping80: 0, chocolateTopping60: 0, //посыпка шоколадная
         candles: 0, candles80: 0, candles60: 0, //свечи
         chocolateGlazing100: 0, chocolateGlazing80: 0, chocolateGlazing60: 0, //глазурь шоколадная
@@ -112,8 +112,8 @@ export default class Cake extends Component {
         let { chocolateCake, chocolateCake80, chocolateCake60, 
             strawberryCake, strawberryCake80, strawberryCake60, 
             vanillaCake, vanillaCake80, vanillaCake60, 
-            pinkTopping, pinkTopping80, pinkTopping60,
-            chocolateTopping, chocolateTopping80, chocolateTopping60, 
+            pinkTopping100, pinkTopping80, pinkTopping60,
+            chocolateTopping100, chocolateTopping80, chocolateTopping60, 
             candles, candles80, candles60, 
             chocolateGlazing100, chocolateGlazing80, chocolateGlazing60, 
             strawberryGlazing100, strawberryGlazing80, strawberryGlazing60, 
@@ -365,13 +365,13 @@ export default class Cake extends Component {
                     break;
                 else{
                     if(cakeCount === 1){
-                        stateValue = chocolateTopping;
-                        ingredients.push(ingredient);
+                        stateValue = chocolateTopping100;
+                        ingredients.push("chocolateTopping100");
                         decorationFlag = true;
                         decorationTopingFlag = true;
                         stateValue +=1;
                         this.setState({
-                            ["chocolateTopping"]: stateValue >= 0 ? stateValue : 0
+                            ["chocolateTopping100"]: stateValue >= 0 ? stateValue : 0
                         });
                         break
                     }
@@ -404,13 +404,13 @@ export default class Cake extends Component {
                     break;
                 else{
                     if(cakeCount === 1){
-                        stateValue = pinkTopping;
-                        ingredients.push(ingredient);
+                        stateValue = pinkTopping100;
+                        ingredients.push("pinkTopping100");
                         decorationFlag = true;
                         decorationTopingFlag = true;
                         stateValue +=1;
                         this.setState({
-                            ["pinkTopping"]: stateValue >= 0 ? stateValue : 0
+                            ["pinkTopping100"]: stateValue >= 0 ? stateValue : 0
                         });
                         break
                     }
@@ -450,8 +450,8 @@ export default class Cake extends Component {
             ["chocolateGlazing100"]: 0, ["chocolateGlazing80"]: 0, ["chocolateGlazing60"]: 0, 
             ["strawberryGlazing100"]: 0, ["strawberryGlazing80"]: 0, ["strawberryGlazing60"]: 0,
             ["vanillaGlazing100"]: 0, ["vanillaGlazing80"]: 0, ["vanillaGlazing60"]: 0, 
-            ["pinkTopping"]: 0, ["pinkTopping80"]: 0, ["pinkTopping60"]: 0, 
-            ["chocolateTopping"]: 0, ["chocolateTopping80"]: 0, ["chocolateTopping60"]: 0,  
+            ["pinkTopping100"]: 0, ["pinkTopping80"]: 0, ["pinkTopping60"]: 0, 
+            ["chocolateTopping100"]: 0, ["chocolateTopping80"]: 0, ["chocolateTopping60"]: 0,  
             ["candles"]: 0, ["candles80"]: 0, ["candles60"]: 0, 
             ["pinkFlowers"]: 0, ["blueFlowers"]: 0, 
             ["cakeStand"]: 0
@@ -478,14 +478,14 @@ export default class Cake extends Component {
                     if(buf.includes("80"))
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-14%" }}><img src={str_buf}/></div>)
                     if(buf.includes("100"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-15%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-16%" }}><img src={str_buf}/></div>)
                 }
                 if(buf.includes("Cake")){
                     if(buf.includes("60")){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
                     }
                     if(buf.includes("80")){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-11%" }}><img src={str_buf}/></div>)
                     }
                     if(!((buf.includes("60") || buf.includes("80")))){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
@@ -493,20 +493,20 @@ export default class Cake extends Component {
                 }
                 if(buf.includes("Topping")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-4%", alignItems: "center" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
-                    if(!((buf.includes("60") || buf.includes("80")))){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-11%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
+                    if(buf.includes("100")){
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-12%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     }
                 }
                 if(buf.includes("candles")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-4%", alignItems: "center" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-12%", transform: "scale(55%)"}}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-13%", transform: "scale(60%)"}}><img src={str_buf}/></div>)
                     if(!((buf.includes("60") || buf.includes("80")))){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-12%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     }
                 }
             }
@@ -528,7 +528,7 @@ export default class Cake extends Component {
                 <div className="ingredientsBlock" style={{zIndex: 600}}>
                     <div className="bufIngredientBlock">
                         <p style={{zIndex: 610, border: '0px', color: 'white',
-                        backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", marginTop:'-20%'}}>Корж</p>
+                        backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Корж</p>
                         <p onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610, cursor: "pointer"}}>Шоколадый</p>
                         <p onClick={() => this.addIngredient("strawberryCake")} style={{zIndex: 610, cursor: "pointer"}}>Клубничный</p>
                         <p onClick={() => this.addIngredient("vanillaCake")} style={{zIndex: 610, cursor: "pointer"}}>Ванильный</p>
