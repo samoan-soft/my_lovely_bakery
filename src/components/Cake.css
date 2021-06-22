@@ -1,5 +1,7 @@
 .cakeIngredients{   
-    height: 300px;
+    height: 100%;
+    transform: scale(160%);
+    margin-left: 33%;
     /*overflow-x: hidden;*/
     flex: 1 1 auto;
 }
