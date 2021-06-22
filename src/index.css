@@ -1,11 +1,12 @@
 body {
   width: auto;
+  overflow-y: hidden;
   padding: 80px;
   background: #FFA4E7 url("back.svg") repeat scroll 50% 50%;
   margin: 0;
 }
 .header{
-  background: url("honey.svg") repeat scroll 50% 50%;
+  background: url("honey.svg") repeat scroll 150% 150%;
   height: 110px;
   text-align: center;
   text-transform: uppercase;

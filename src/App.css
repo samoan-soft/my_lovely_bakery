@@ -1,7 +1,8 @@
 .CakeContent{
+    transform: scale(55%);
     background: #ffefc4f6;
     width: 100%;
-    margin-top: 110px;
+    margin-top: -200px;
     display: flex;
     padding: 0 0px;
 }

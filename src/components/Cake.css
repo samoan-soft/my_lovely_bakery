@@ -1,6 +1,6 @@
 .cakeIngredients{   
     height: 300px;
-    /*overflow: auto;*/
+    /*overflow-x: hidden;*/
     flex: 1 1 auto;
 }
 
@@ -22,7 +22,6 @@
     color: #7a180d;
     font-weight: 400;
     font-family: "Amatic SC", cursive;
-    cursor: pointer;
 }
 
 .topSide{
