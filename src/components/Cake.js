@@ -544,12 +544,9 @@ export default class Cake extends Component {
                         <p style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase"}}>Украшения</p>
                         <p onClick={() => this.addIngredient("candles")} style={{zIndex: 610, cursor: "pointer"}}>Свечи</p>
-                        <button onClick={() => this.removeIngredient()} style={{zIndex: 610, border: '15px', color: 'white',
+                        <p onClick={() => this.removeIngredient()} style={{zIndex: 610, border: '15px', color: 'white',
                         backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '35%',*/
-                        cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/ cursor: "pointer"}}>Удалить</button>
-                        <p style={{zIndex: 610, border: '15px', color: 'white',
-                        backgroundColor: 'pink', padding: '5%', textTransform: "uppercase", /*marginLeft: '32%',*/ marginTop: '10px',
-                        cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/ cursor: "pointer"}}>Завершить</p>
+                        cursor:"pointer", textAlign:'center', alignItems: 'center', /*borderRadius: '34%'*/ cursor: "pointer"}}>Удалить</p>
                     </div>
                 </div>
             </>
