@@ -1,5 +1,6 @@
 body {
-  width: 1439px;
+  width:100%; 
+  overflow-x:hidden;
   /*overflow-x: hidden;
   overflow-y: hidden;*/
   background: #FFA4E7 url("back.svg") repeat;
