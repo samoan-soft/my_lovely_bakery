@@ -8,8 +8,8 @@
     margin-top: 10%;
     padding: 0 0px;
     /*margin-bottom: 10%;*/
-    /*margin-left: 5%;
-    margin-right: 5%;*/
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 0px;
 }
 
@@ -27,7 +27,5 @@
         grid-template-columns: 60% 60%;
         margin-top: -10%;
         grid-gap: 5%;
-        margin-left: 0%;
-        margin-right: 0%;
     }
 }

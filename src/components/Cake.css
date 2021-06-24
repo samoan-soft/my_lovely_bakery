@@ -70,7 +70,8 @@
 
 @media (min-width: 1025px) and (max-width: 1980px) {
     .ingredientsBlock{
-        max-width: 80%;
+        transform: scale(60%);
+        max-width: 60%;
     }
     .cakeIngredients{   
         transform: scale(65%);
