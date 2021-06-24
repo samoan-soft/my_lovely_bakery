@@ -1,5 +1,5 @@
 .CakeContent{
-    /*transform: scale(70%);*/
+    transform: scale(40%);
     /*background: #ffefc4f6;*/
     width: 100%;
     display: grid;
@@ -9,7 +9,7 @@
     padding: 0 0px;
 }
 
-@media (max-width: 1280px) {
+/*@media (max-width: 1280px) {
     .CakeContent {
         transform: scale(20%);
     }
@@ -19,4 +19,4 @@
     .CakeContent {
         transform: scale(50%);
     }
-}
+}*/
