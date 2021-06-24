@@ -15,19 +15,17 @@
 
 @media (min-width: 1025px) and (max-width: 1980px) {
     .CakeContent {
-        transform: scale(70%);
+        transform: scale(50%);
         grid-template-columns: 50% 50%;
-        margin-top: 10%;
-        grid-gap: 20%;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-bottom: 10%;
+        grid-gap: 17%;
     }
 }
 
 @media (max-width: 1024px) {
     .CakeContent {
         grid-template-columns: 60% 60%;
-        margin-top: -15%;
+        margin-top: -10%;
         grid-gap: 5%;
         margin-left: 0%;
         margin-right: 0%;
