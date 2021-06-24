@@ -69,8 +69,11 @@
 }
 
 @media (max-width: 1280px) {
+    .ingredientsBlock{
+        max-width: 80%;
+    }
     .cakeIngredients{   
-        transform: scale(55%);
+        transform: scale(45%);
         max-height: 350px;
     }
     .ingredientsBlock p {

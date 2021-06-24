@@ -10,16 +10,19 @@
     /*margin-bottom: 10%;*/
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 0px;
 }
 
 @media (max-width: 1280px) {
     .CakeContent {
         margin-bottom: 10%;
+        grid-gap: 20%;
     }
 }
 
 @media (max-width: 980px) {
     .CakeContent {
-        margin-bottom: 0;
+        margin-bottom: 0px;
+        grid-gap: 10%;
     }
 }
