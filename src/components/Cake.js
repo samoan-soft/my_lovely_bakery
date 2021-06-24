@@ -109,6 +109,12 @@ export default class Cake extends Component {
 
 
     addIngredient = (ingredient) => {
+        this.assistant.sendData({
+            action: {
+                action_id: 'yes',
+                parameter: {}
+            }
+        })
         let { chocolateCake, chocolateCake80, chocolateCake60, 
             strawberryCake, strawberryCake80, strawberryCake60, 
             vanillaCake, vanillaCake80, vanillaCake60, 
@@ -443,6 +449,12 @@ export default class Cake extends Component {
     }
 
     removeIngredient = () => {
+        this.assistant.sendData({
+            action: {
+                action_id: 'yes',
+                parameter: {}
+            }
+        })
         this.setState({
             ["chocolateCake"]: 0, ["chocolateCake80"]: 0, ["chocolateCake60"]: 0, 
             ["strawberryCake"]: 0, ["strawberryCake80"]: 0, ["strawberryCake60"]: 0, 
