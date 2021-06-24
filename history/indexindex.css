@@ -1,0 +1,24 @@
+body {
+  position: relative;
+	width: 100%;
+	height: 100%;
+  overflow:hidden;
+  /*overflow-x: hidden;
+  overflow-y: hidden;*/
+  background: #FFA4E7 url("back.svg") repeat;
+  background-size: 30% auto;
+  margin-top: 4.5%;
+  box-sizing: border-box;
+}
+.header{
+  background: url("honey.svg") repeat-x top scroll;
+  height: 110px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7a180d;
+  font-weight: 700;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  margin: -5%;
+  padding: 20px 5px;
+}
