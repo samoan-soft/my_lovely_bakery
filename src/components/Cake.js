@@ -111,7 +111,7 @@ export default class Cake extends Component {
     addIngredient = (ingredient) => {
         this.assistant.sendData({
             action: {
-                action_id: 'yes',
+                action_id: '',
                 parameter: {}
             }
         })
@@ -451,7 +451,7 @@ export default class Cake extends Component {
     removeIngredient = () => {
         this.assistant.sendData({
             action: {
-                action_id: 'yes',
+                action_id: '',
                 parameter: {}
             }
         })
