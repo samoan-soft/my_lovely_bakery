@@ -68,12 +68,12 @@
     color: white;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1980px) {
     .ingredientsBlock{
         max-width: 80%;
     }
     .cakeIngredients{   
-        transform: scale(45%);
+        transform: scale(65%);
         max-height: 350px;
     }
     .ingredientsBlock p {
@@ -81,13 +81,17 @@
     }
     .buttons {
         font-size: 0,7vw;
+        
     }
     .button_delete {
         font-size: 0,7vw;
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1024px) {
+    .ingredientsBlock{
+        max-width: 80%;
+    }
     .ingredientsBlock p {
         font-size: 2vw;
     }
