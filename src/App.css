@@ -19,6 +19,7 @@
         grid-template-columns: 20% 50%;
         margin-bottom: 10%;
         grid-gap: 15%;
+        margin-left: 15%;
     }
 }
 
