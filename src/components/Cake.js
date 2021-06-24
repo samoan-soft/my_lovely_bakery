@@ -502,7 +502,7 @@ export default class Cake extends Component {
                 }
                 if(buf.includes("candles")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-23%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-24%" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-27%" }}><img src={str_buf}/></div>)
                     if(!((buf.includes("60") || buf.includes("80")))){
