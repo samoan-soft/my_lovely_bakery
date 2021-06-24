@@ -9,7 +9,7 @@
     padding: 0 0px;
 }
 
-@media (max-width: 1270px) {
+@media (max-device-width: 800px) {
     .CakeContent {
         transform: scale(50%);
     }
