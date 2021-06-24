@@ -69,13 +69,16 @@
 }
 
 .cakeSideCandles60{
+    z-index: 50;
     transform: scale(45%);
 }
 
 .cakeSideCandles80{
+    z-index: 50;
     transform: scale(55%);
 }
 
 .cakeSideCandles100{
+    z-index: 50;
     transform: scale(80%);
 }
