@@ -70,11 +70,11 @@
 
 @media (min-width: 1025px) and (max-width: 1980px) {
     .ingredientsBlock{
-        transform: scale(60%);
+        transform: scale(40%);
         max-width: 60%;
     }
     .cakeIngredients{   
-        transform: scale(65%);
+        transform: scale(25%);
         max-height: 350px;
     }
     .ingredientsBlock p {
@@ -97,7 +97,7 @@
         font-size: 2vw;
     }
     .cakeIngredients{   
-        transform: scale(75%);
+        transform: scale(55%);
         max-height: 350px;
     }
     .buttons {
