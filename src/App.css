@@ -4,6 +4,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
+    grid-gap: 10px;
     margin-top: 0px;
     padding: 0 0px;
 }
