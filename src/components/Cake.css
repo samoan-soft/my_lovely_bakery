@@ -1,5 +1,5 @@
 .cakeIngredients{   
-    transform: scale(50%);
+    transform: scale(55%);
     max-height: 350px;
 }
 
@@ -23,6 +23,7 @@
 
 .bottomSide{
     position: relative;
+    transform: scale(110%);
     z-index: 0;
     height: 100%;
     width: 100%;

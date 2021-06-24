@@ -3,9 +3,10 @@ body {
     overflow-x:hidden;
     /*overflow-x: hidden;
     overflow-y: hidden;*/
-    background: #FFA4E7 url("back.svg") repeat;
+    background: /*#FFA4E7*/ url("back.svg") repeat scroll;
     background-size: 30% auto;
     margin-top: 4.5%;
+
   }
   .header{
     background: url("honey.svg") repeat-x top scroll;

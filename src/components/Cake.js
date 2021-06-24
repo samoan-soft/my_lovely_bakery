@@ -482,13 +482,13 @@ export default class Cake extends Component {
                 }
                 if(buf.includes("Cake")){
                     if(buf.includes("60")){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-15%" }}><img src={str_buf}/></div>)
                     }
                     if(buf.includes("80")){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-11%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-18%" }}><img src={str_buf}/></div>)
                     }
                     if(!((buf.includes("60") || buf.includes("80")))){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-10%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-19%" }}><img src={str_buf}/></div>)
                     }
                 }
                 if(buf.includes("Topping")){
