@@ -69,18 +69,18 @@
 }
 
 @media (max-width: 1280px) {
+    .cakeIngredients{   
+        transform: scale(55%);
+        max-height: 350px;
+    }
     .ingredientsBlock p {
-        font-size: 1vw;
+        font-size: 0,7vw;
     }
-}
-@media (max-width: 1280px) {
     .buttons {
-        font-size: 1vw;
+        font-size: 0,7vw;
     }
-}
-@media (max-width: 1280px) {
     .button_delete {
-        font-size: 1vw;
+        font-size: 0,7vw;
     }
 }
 
@@ -88,13 +88,9 @@
     .ingredientsBlock p {
         font-size: 2vw;
     }
-}
-@media (max-width: 980px) {
     .buttons {
         font-size: 2vw;
     }
-}
-@media (max-width: 980px) {
     .button_delete {
         font-size: 2vw;
     }
