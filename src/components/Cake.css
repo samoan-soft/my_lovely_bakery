@@ -67,3 +67,15 @@
     background-color: #FFA4E7;
     color: white;
 }
+
+.cakeSideCandles60{
+    transform: scale(45%);
+}
+
+.cakeSideCandles80{
+    transform: scale(55%);
+}
+
+.cakeSideCandles100{
+    transform: scale(80%);
+}
