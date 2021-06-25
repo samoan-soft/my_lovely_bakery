@@ -492,7 +492,7 @@ export default class Cake extends Component {
                     if(buf.includes("60"))
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-25%" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-2%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-27%" }}><img src={str_buf}/></div>)
                     if(!((buf.includes("60") || buf.includes("80")))){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-22%" }}><img src={str_buf}/></div>)
                     }
