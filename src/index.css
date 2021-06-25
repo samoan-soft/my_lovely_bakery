@@ -24,14 +24,14 @@ body {
     padding: 1.6%;
   }
 
-  @media (min-width: 1980px) {
+  @media (min-width: 1920px) {
     .header {
       background-size: 63% auto;
-      width: 105%;
+      width: 105.5%;
     }
   }
 
-  @media (min-width: 1025px) and (max-width: 1979px) {
+  @media (min-width: 1025px) and (max-width: 1919px) {
     .header {
       background-size: 63% auto;
       width: 108%;
