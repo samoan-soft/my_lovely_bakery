@@ -11,6 +11,8 @@ body {
   .header{
     background: url("honey.svg") top left repeat-x scroll;
     background-size: 78% auto;
+    width: 105%;
+    height: 100%;
     height: 110px;
     text-align: center;
     text-transform: uppercase;
