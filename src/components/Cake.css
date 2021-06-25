@@ -78,14 +78,14 @@
         max-height: 350px;
     }
     .ingredientsBlock p {
-        font-size: 1.2vw;
+        font-size: 1.8vw;
     }
     .buttons {
-        font-size: 1.2vw;
+        font-size: 1.8vw;
         
     }
     .button_delete {
-        font-size: 1.2vw;
+        font-size: 1.8vw;
     }
 }
 
@@ -99,14 +99,14 @@
         max-height: 350px;
     }
     .ingredientsBlock p {
-        font-size: 1.5vw;
+        font-size: 1.05vw;
     }
     .buttons {
-        font-size: 1.5vw;
+        font-size: 1.05vw;
         
     }
     .button_delete {
-        font-size: 1.5vw;
+        font-size: 1.05vw;
     }
 }
 
