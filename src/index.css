@@ -20,3 +20,9 @@ body {
     margin: -5%;
     padding: 1.6%;
   }
+
+  @media (min-width: 1980px) {
+    .header {
+      background-size: 63% auto;
+    }
+}
