@@ -1,4 +1,5 @@
 .cakeIngredients{   
+    position: static;
     transform: scale(75%);
     max-height: 350px;
 }
@@ -12,7 +13,11 @@
     text-align: center;
     text-transform: uppercase;
     color: #7a180d;
-    font-family: "Amatic SC", cursive;
+    font-family: "Montserrat", sans-serif;
+    padding: 1px 26px; /*15 на 32*/
+    text-align: center;
+    text-decoration: none;
+    display: block;
     font-size: 2vw;
 }
 

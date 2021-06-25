@@ -2,8 +2,8 @@ body {
     overflow-x:hidden;
     /*overflow-x: hidden;
     overflow-y: hidden;*/
-    background: url("back.svg") top left repeat scroll;
-    background-size: 100% auto;
+    /*background: url("back.svg") top left repeat scroll;
+    background-size: 100% auto;*/
     margin-top: 4.5%;
 
   }
@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
     color: #7a180d;
     font-weight: 700;
-    font-family: "Amatic SC", cursive;
+    font-family: "Montserrat", sans-serif;
     font-size: 4vw;
     margin: -5%;
     padding: 1.6%;
