@@ -3,11 +3,13 @@ body {
     /*overflow-x: hidden;
     overflow-y: hidden;*/
     background: url("back.svg") top left repeat scroll;
+    background-size: 100% auto;
     margin-top: 4.5%;
 
   }
   .header{
-    background: url("honey.svg") center left repeat-x scroll;
+    background: url("honey.svg") top left repeat-x scroll;
+    background-size: 78% auto;
     height: 110px;
     text-align: center;
     text-transform: uppercase;
