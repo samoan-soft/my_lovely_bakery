@@ -40,7 +40,7 @@
     width: 100%;
     color: white;
     transition-duration: 0.4s;
-    padding: 15px 32px;
+    padding: 10px 26px; /*15 на 32*/
     text-align: center;
     text-decoration: none;
     display: block;
@@ -115,16 +115,16 @@
         max-width: 80%;
     }
     .ingredientsBlock p {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     .cakeIngredients{   
         transform: scale(85%);
         max-height: 350px;
     }
     .buttons {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     .button_delete {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 }
