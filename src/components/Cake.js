@@ -6,19 +6,7 @@ import {
     AssistantAppState,
 } from "@sberdevices/assistant-client";
 
-let token_ = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkOTI3NTUxNTg3ZTFjYjc5YmZmY2FkNzBhN2Y5YzAxMDJhOThjMGRlNmU1OWM1MmU0ZDkzYTNhYTA4MzA5ZTlmZjI4ZjU3NjFjODA0M2IyMiIsImF1ZCI6IlZQUyIsImV4cCI6MTYyNDIyMzYwMCwiaWF0IjoxNjI0MTM3MTkwLCJpc3MiOiJLRVlNQVNURVIiLCJ0eXBlIjoiQmVhcmVyIiwianRpIjoiZGViNGRjN2UtYzQzZS00N2U1LWFiY2QtMDk1MTEyMGFlMjhiIiwic2lkIjoiMjM0Mzc4ZDYtOTZkNC00ZTg4LWE2OWQtMTNjYmJkZjc3NGMwIn0.ZuKAH1YPk4QCpAyOlk32d_gvtmz0YstgoM69aK5f79L9GmNi7mil9ET1MO5JMQAK28p-ipY4EwyzwI2cfNx7C46hbmBQ8tFJmzjS_D6bcoEqT11GnkXpcJIQSdSukAEiwPJ1JzBAy3ohGtwaM1vavpA_TUcXd51t76UOCgOfYZrYrczOlmYDPXf256cGqiJ5Og6CplEFehRaImAwpABFAACI48uRmSfR4jB5HZcjGsEwClE0aqEhCxjZ8dnR9StTCXdekhlHCMkMrfUo8sk-GFJzNrEQqOBL7pUNncpjsGZO6IoAwNi6eHK_sSj36H6eKp6TehCYTopU0ubuEw5Ik0P5RWPMl-BJRVorXBltfNBDrlJ4GXKcuPwuOzkwBxi9J6y2-Gm1w-B1tMIolcf9wmaidsyRIvyZ0mYcrM_rgjVAUzAZY6aH5tci0Qc5RSAMnWvvgokaJ8VCibpvFX8aBS0qO3AHgHOMwG8pAKufew30KXG09AGHswbEGnKMhRi-30-FQo5eIh4mctdX3NiZkXF9ucJhJs2JtiLE6jgChXtwscTxr4DYrIuVHHBGR0UZ0ozOeMfrctHrj3i1v5oNp-NeYqeF4x9Rzl87afza_Dn5tOWBd_zNFqkYLYp6DBz8XiVRb0CURS9voUWxl0f4kF5_xP8XirC6mvWk0c6EdJk";
-let initPhrase_ = "Запусти Моя любимая пекарня";
-
 const init = (getState) => {
-  /*return createSmartappDebugger({
-    // Токен из Кабинета разработчика
-    token: token_,
-    // Пример фразы для запуска смартапа
-    initPhrase: initPhrase_,
-    // Текущее состояние смартапа
-    getState,
-    // Состояние смартапа, с которым он будет восстановлен при следующем запуске,
-  });*/
   return createAssistant({ getState });
 }
 
@@ -527,7 +515,7 @@ export default class Cake extends Component {
                 </div>
                 <div className="ingredientsBlock" style={{zIndex: 600}}>
                         <p style={{zIndex: 610}}>Корж</p>
-                        <button className="buttons" onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610}}>Шоколадый</button>
+                        <button className="buttons" onClick={() => this.addIngredient("chocolateCake")} style={{zIndex: 610}}>Шоколадный</button>
                         <button className="buttons" onClick={() => this.addIngredient("strawberryCake")} style={{zIndex: 610}}>Клубничный</button>
                         <button className="buttons" onClick={() => this.addIngredient("vanillaCake")} style={{zIndex: 610}}>Ванильный</button>
                         <p style={{zIndex: 610}}>Глазурь</p>
