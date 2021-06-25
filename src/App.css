@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: 40% 40%;
     grid-gap: 15%;
-    margin-top: 7%;
+    margin-top: 6%;
     padding: 0 0px;
     /*margin-bottom: 10%;*/
     margin-left: 5%;
@@ -17,7 +17,7 @@
     .CakeContent {
         transform: scale(50%);
         grid-template-columns: 20% 50%;
-        margin-bottom: 11%;
+        margin-bottom: 10%;
         grid-gap: 15%;
         margin-left: 15%;
     }
