@@ -13,7 +13,7 @@
     margin-bottom: 0px;
 }
 
-@media (min-width: 1030px) and (max-width: 1980px) {
+@media (min-width: 1980px) {
     .CakeContent {
         transform: scale(50%);
         grid-template-columns: 20% 50%;
@@ -21,6 +21,17 @@
         grid-gap: 15%;
         margin-left: 15%;
         margin-top: 10%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1979px) {
+    .CakeContent {
+        transform: scale(50%);
+        grid-template-columns: 20% 50%;
+        margin-bottom: 10%;
+        grid-gap: 15%;
+        margin-left: 15%;
+        margin-top: 8%;
     }
 }
 
