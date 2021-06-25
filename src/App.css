@@ -17,7 +17,7 @@
     .CakeContent {
         transform: scale(50%);
         grid-template-columns: 20% 50%;
-        margin-bottom: 10%;
+        margin-bottom: 11%;
         grid-gap: 15%;
         margin-left: 15%;
     }
