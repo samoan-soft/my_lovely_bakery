@@ -6,7 +6,7 @@ body {
     /*overflow-x: hidden;
     overflow-y: hidden;*/
     background: #FFA4E7 url("back.svg") repeat;
-    background-size: 30% auto;
+    background-size: 100% auto;
   }
   .header{
     position: fixed;
