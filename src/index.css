@@ -25,4 +25,10 @@ body {
     .header {
       background-size: 63% auto;
     }
-}
+  }
+
+  @media (max-width: 1979px) {
+    .header {
+      background-size: 63% auto;
+    }
+  }
