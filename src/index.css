@@ -27,11 +27,20 @@ body {
   @media (min-width: 1980px) {
     .header {
       background-size: 63% auto;
+      width: 106%;
     }
   }
 
-  @media (max-width: 1979px) {
+  @media (min-width: 1025px) and (max-width: 1979px) {
     .header {
       background-size: 63% auto;
+      width: 108%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .header {
+      background-size: 63% auto;
+      width: 108%;
     }
   }
