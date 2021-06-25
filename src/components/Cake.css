@@ -1,5 +1,4 @@
 .cakeIngredients{   
-    position: static;
     transform: scale(75%);
     max-height: 350px;
 }
@@ -22,12 +21,10 @@
 }
 
 .topSide{
-    position: relative;
     z-index: 1;
 }
 
 .bottomSide{
-    position: relative;
     transform: scale(110%);
     z-index: 0;
     height: 100%;

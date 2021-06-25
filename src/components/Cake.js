@@ -481,18 +481,18 @@ export default class Cake extends Component {
                 }
                 if(buf.includes("Topping")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-14%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-15%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-18%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-19%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     if(buf.includes("100")){
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-22%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-23%", transform: "scale(80%)" }}><img src={str_buf}/></div>)
                     }
                 }
                 if(buf.includes("candles")){
                     if(buf.includes("60"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-24%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-25%" }}><img src={str_buf}/></div>)
                     if(buf.includes("80"))
-                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-27%" }}><img src={str_buf}/></div>)
+                        cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-2%" }}><img src={str_buf}/></div>)
                     if(!((buf.includes("60") || buf.includes("80")))){
                         cake.push(<div key={cake.length} className="cakeSide" style={{ zIndex: i+1, marginBottom: "-22%" }}><img src={str_buf}/></div>)
                     }
