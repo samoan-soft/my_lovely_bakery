@@ -27,7 +27,7 @@
     z-index: 0;
     height: 100%;
     width: 100%;
-    margin-top: -21%;
+    margin-top: -15%;
 }
 
 .cakeSide{
@@ -116,16 +116,16 @@
         max-width: 80%;
     }
     .ingredientsBlock p {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .cakeIngredients{   
         transform: scale(85%);
         max-height: 350px;
     }
     .buttons {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     .button_delete {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 }
