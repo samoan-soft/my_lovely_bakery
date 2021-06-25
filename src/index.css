@@ -1,15 +1,13 @@
 body {
-    width:100%; 
     overflow-x:hidden;
     /*overflow-x: hidden;
     overflow-y: hidden;*/
-    background: /*#FFA4E7*/ url("back.svg") repeat scroll;
-    background-size: 30% auto;
+    background: url("back.svg") center center repeat scroll;
     margin-top: 4.5%;
 
   }
   .header{
-    background: url("honey.svg") repeat-x top scroll;
+    background: url("honey.svg") center top repeat-x scroll;
     height: 110px;
     text-align: center;
     text-transform: uppercase;
@@ -18,5 +16,5 @@ body {
     font-family: "Amatic SC", cursive;
     font-size: 4vw;
     margin: -5%;
-    padding: 20px 5px;
+    padding: 1.6%;
   }

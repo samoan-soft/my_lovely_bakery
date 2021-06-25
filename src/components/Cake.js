@@ -97,7 +97,7 @@ export default class Cake extends Component {
         strawberryCake: 0, strawberryCake80: 0, strawberryCake60: 0, //количество клубничных коржей 60% размера
         vanillaCake: 0, vanillaCake80: 0, vanillaCake60: 0, //количество ванильных коржей 60% размера
         pinkTopping100: 0, pinkTopping80: 0, pinkTopping60: 0, //посыпка розовая
-        chocolateTopping: 0, chocolateTopping80: 0, chocolateTopping60: 0, //посыпка шоколадная
+        chocolateTopping100: 0, chocolateTopping80: 0, chocolateTopping60: 0, //посыпка шоколадная
         candles: 0, candles80: 0, candles60: 0, //свечи
         chocolateGlazing100: 0, chocolateGlazing80: 0, chocolateGlazing60: 0, //глазурь шоколадная
         strawberryGlazing100: 0, strawberryGlazing80: 0, strawberryGlazing60: 0, //глазурь клубничная
