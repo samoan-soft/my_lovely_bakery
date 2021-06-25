@@ -27,6 +27,7 @@
     z-index: 0;
     height: 100%;
     width: 100%;
+    margin-top: -21%;
 }
 
 .cakeSide{
@@ -68,7 +69,28 @@
     color: white;
 }
 
-@media (min-width: 1025px) and (max-width: 1980px) {
+@media (min-width: 1980px) {
+    .ingredientsBlock{
+        transform: scale(40%);
+        max-width: 60%;
+    }
+    .cakeIngredients{   
+        transform: scale(25%);
+        max-height: 350px;
+    }
+    .ingredientsBlock p {
+        font-size: 1.2vw;
+    }
+    .buttons {
+        font-size: 1.2vw;
+        
+    }
+    .button_delete {
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1979px) {
     .ingredientsBlock{
         transform: scale(40%);
         max-width: 60%;
@@ -94,16 +116,16 @@
         max-width: 80%;
     }
     .ingredientsBlock p {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .cakeIngredients{   
-        transform: scale(75%);
+        transform: scale(85%);
         max-height: 350px;
     }
     .buttons {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .button_delete {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
